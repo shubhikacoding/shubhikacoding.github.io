@@ -41,9 +41,9 @@ h2{
   max-width: 800px;
   width: 85%;
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 90px 0;
 }
-.kaam{
+.designation{
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   }
@@ -82,6 +82,38 @@ border-bottom: none;
 header{
   background: #353570;
   color: #F7FFF7;
+}
+.navbar {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #353570;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  }
+
+.navbar li {
+  float: left;
+  
+}
+
+.navbar li a {
+  display: block;
+  color: #FFE66D;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+  background-color: rgba(58, 60, 146, 90%);
+}
+
+.navbar li a.active {
+  color: #A1C6D7;
+  background-color: #04AA6D;
 }
 
 
